@@ -27,4 +27,4 @@ jobs:
       # See https://docs.microsoft.com/visualstudio/msbuild/msbuild-command-line-reference
       run: |
         premake-vs2019.cmd
-        msbuild /m /p:Configuration=${{env.BUILD_CONFIGURATION}} build\reVC.sln
+        msbuild /m /p:Configuration=${{env.BUILD_CONFIGURATION}} build\re3.sln
